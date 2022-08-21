@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ReactTask",
+    "slug": "ReactTask",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ReactTask"
+}
