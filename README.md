@@ -1,2 +1,2 @@
 # ReactNativeTask
-My first react active task with login, register and 5 marker map page
+My first react native task with login, register and 5 marker map page
