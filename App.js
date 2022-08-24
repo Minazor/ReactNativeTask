@@ -1,26 +1,26 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View,placeholder } from 'react-native';
-import SignInScreen from './src/screens/SignInScreen';
+
+import Navigation from './src/navigation'
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SignInScreen/>
+      <Navigation/>
       <StatusBar style="auto" />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#EDEDEC',
+    backgroundColor: '#D9D7F1',
     flex: 1,
+    justifyContent:'center',
   },
-  placeholder:{
-    color: '#FFFF03',
-  },
+
 });
 
 
